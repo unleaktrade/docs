@@ -1,8 +1,8 @@
 ---
-description: Structured on-chain price discovery for negotiated trades
+description: Structured on-chain price discovery for negotiated trades.
 ---
 
-# RFQ
+# RFQ States
 
 RFQs (Requests For Quote) provide a controlled way to discover prices and execute large or sensitive trades on-chain.\
 Instead of trading immediately, participants follow a time-bounded workflow that enforces commitments, selection, and settlement.

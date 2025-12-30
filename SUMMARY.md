@@ -1,8 +1,9 @@
 # Table of contents
 
-* [RFQ](RFQ.md)
+* [Quick Start](README.md)
+* [RFQ States](RFQ.md)
   * [Overview](rfq/overview.md)
-  * [Lifecycle](rfq/lifecycle/rfq.md)
+  * [Lifecycle](rfq/lifecycle/README.md)
     * [Happy Path](rfq/lifecycle/happy-path.md)
     * [Failure & Exit Paths](rfq/lifecycle/failure-and-exit-paths.md)
   * [Maker Perspective](rfq/maker-perspective.md)
