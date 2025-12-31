@@ -1,7 +1,6 @@
 # Table of contents
 
-* [🏗️ Quick Start](README.md)
-* [RFQ States](RFQ.md)
+* [RFQ States](README.md)
   * [Overview](rfq/overview.md)
   * [Lifecycle](rfq/lifecycle/README.md)
     * [Happy Path](rfq/lifecycle/happy-path.md)
@@ -9,3 +8,4 @@
   * [Maker Perspective](rfq/maker-perspective.md)
   * [Taker Perspective](rfq/taker-perspective.md)
   * [Bonds & Fees](rfq/bonds-and-fees.md)
+* [🏗️ Quick Start](<README (1).md>)
