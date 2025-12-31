@@ -1,5 +1,8 @@
 ---
 description: Structured on-chain price discovery for negotiated trades.
+cover: >-
+  .gitbook/assets/_whyvrafvr_networks_1_cubes_1_glass_fibre_links_minimalist_blac_706ac6ea-0f40-4242-8699-99d5de0091b9.png
+coverY: 149.55679513184583
 ---
 
 # RFQ States
