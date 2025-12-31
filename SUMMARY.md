@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Quick Start](README.md)
+* [🏗️ Quick Start](README.md)
 * [RFQ States](RFQ.md)
   * [Overview](rfq/overview.md)
   * [Lifecycle](rfq/lifecycle/README.md)

@@ -2,7 +2,7 @@
 description: Work in Progress
 ---
 
-# Quick Start
+# 🏗️ Quick Start
 
 {% hint style="warning" %}
 WIP
