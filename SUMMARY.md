@@ -1,6 +1,11 @@
 # Table of contents
 
-* [RFQ States](README.md)
+* [What is UnleakTrade?](README.md)
+  * [Why an OTC with RFQs?](what-is-unleaktrade/why-an-otc-with-rfqs.md)
+  * [Design Principles](what-is-unleaktrade/design-principles.md)
+  * [How UnleakTrade Works ?](what-is-unleaktrade/how-unleaktrade-works.md)
+  * [Built on Solana](what-is-unleaktrade/built-on-solana.md)
+* [RFQ States](<README (1).md>)
   * [Overview](rfq/overview.md)
   * [Lifecycle](rfq/lifecycle/README.md)
     * [Happy Path](rfq/lifecycle/happy-path.md)
@@ -8,4 +13,4 @@
   * [Maker Perspective](rfq/maker-perspective.md)
   * [Taker Perspective](rfq/taker-perspective.md)
   * [Bonds & Fees](rfq/bonds-and-fees.md)
-* [🏗️ Quick Start](<README (1).md>)
+* [🏗️ Quick Start](<README (1) (1).md>)
