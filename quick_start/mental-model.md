@@ -13,7 +13,7 @@ If you keep this model in mind, every RFQ flow will feel intuitive.
 
 ***
 
-### Think in Layers, Not Transactions
+## Think in Layers, Not Transactions
 
 UnleakTrade is best understood as **layers of commitment**, not as individual transactions.
 
@@ -27,7 +27,7 @@ The protocol moves from _flexibility_ to _finality_.
 
 ***
 
-### Layer 1 - Intent (No Risk)
+## Layer 1 - Intent (No Risk)
 
 At the beginning, everything is optional:
 
@@ -44,7 +44,7 @@ Nothing meaningful can go wrong here.
 
 ***
 
-### Layer 2 - Interest (Bonded, Still Private)
+## Layer 2 - Interest (Bonded, Still Private)
 
 When the RFQ opens:
 
@@ -64,7 +64,7 @@ At this stage:
 
 ***
 
-### Layer 3 - Information (Reveal Is Mandatory)
+## Layer 3 - Information (Reveal Is Mandatory)
 
 Once the reveal phase begins:
 
@@ -83,7 +83,7 @@ From here on:
 
 ***
 
-### Layer 4 - Decision (Irreversibility Begins)
+## Layer 4 - Decision (Irreversibility Begins)
 
 When valid quotes exist:
 
@@ -101,7 +101,7 @@ This is the first **irreversible decision**:
 
 ***
 
-### Layer 5 - Capital Lock (Asymmetric Commitment)
+## Layer 5 - Capital Lock (Asymmetric Commitment)
 
 After selection:
 
@@ -121,18 +121,18 @@ This asymmetry is intentional:
 
 ***
 
-### Layer 6 - Finalization (Only Two Outcomes)
+## Layer 6 - Finalization (Only Two Outcomes)
 
 From here, there are only two possible endings:
 
-#### Settlement
+### Settlement
 
 * the taker executes in time,
 * assets are exchanged,
 * bonds are refunded,
 * fees are paid.
 
-#### Exit
+### Exit
 
 * a deadline is missed,
 * penalties apply,
@@ -147,7 +147,7 @@ There is no third option.
 
 ***
 
-### How Bonds Fit the Model
+## How Bonds Fit the Model
 
 {% hint style="info" %}
 Bonds are not payments.\
@@ -172,7 +172,7 @@ All slashed bonds go to the protocol, never to counterparties.
 
 ***
 
-### One Sentence Summary
+## One Sentence Summary
 
 If you remember only one thing:
 
@@ -182,7 +182,7 @@ Everything else is just mechanics.
 
 ***
 
-### How to Use This Page
+## How to Use This Page
 
 * Read this page once.
 * Keep it in mind while reading RFQ States.
