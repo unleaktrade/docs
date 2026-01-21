@@ -1,9 +1,9 @@
 # Table of contents
 
-* [Quick Start](quick_start/README.md)
+* [Quick Start](README.md)
   * [Mental Model](quick_start/mental-model.md)
   * [RFQ in 1 Minute](quick_start/rfq-in-1-minute.md)
-* [What is UnleakTrade?](README.md)
+* [What is UnleakTrade?](<README (1).md>)
   * [Why an OTC with RFQs?](what-is-unleaktrade/why-an-otc-with-rfqs.md)
   * [Design Principles](what-is-unleaktrade/design-principles.md)
   * [How UnleakTrade Works ?](what-is-unleaktrade/how-unleaktrade-works.md)
