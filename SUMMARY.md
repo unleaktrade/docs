@@ -14,4 +14,6 @@
   * [Maker Perspective](rfq/maker-perspective.md)
   * [Taker Perspective](rfq/taker-perspective.md)
   * [Bonds & Fees](rfq/bonds-and-fees.md)
-* [🏗️ Quick Start](quick_start.md)
+* [Quick Start](quick_start/README.md)
+  * [Mental Model](quick_start/mental-model.md)
+  * [RFQ in 1 Minute](quick_start/rfq-in-1-minute.md)
