@@ -141,16 +141,18 @@ This keeps incentives simple and predictable.
 
 ## Participants and Authority
 
-The protocol recognizes three roles:
+The protocol recognizes four roles:
 
 * **Makers**, who initiate negotiations and select quotes
 * **Takers**, who compete by submitting and revealing quotes
+* **Facilitators**, who help connect makers and takers and may be designated to receive a share of the taker fee on successful settlement
 * **The protocol**, which enforces rules and outcomes
 
 No role has special authority:
 
 * makers cannot bypass deadlines,
 * takers cannot avoid penalties,
+* facilitators cannot change RFQ state or outcomes,
 * the protocol cannot override rules.
 
 {% hint style="info" %}

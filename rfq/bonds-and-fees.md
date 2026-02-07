@@ -114,6 +114,21 @@ In addition to bonds, the protocol collects fees on successful settlement.
 
 * The selected taker.
 
+***
+
+## Facilitator Fee (Optional)
+
+A facilitator can be designated to help connect makers and takers. When present, the facilitator may receive a share of the taker fee.
+
+Key properties:
+
+* The facilitator share is calculated in basis points (bps) from the taker fee.
+* The fee rate is snapshotted on RFQ creation.
+* The facilitator earns a share only if the RFQ and the selected quote specify the same facilitator address.
+* The facilitator claims the share after successful settlement.
+
+By default, the facilitator fee is **1000 bps (10%)** of the taker fee unless configured otherwise.
+
 ### What happens on failure
 
 * No protocol fee is charged.

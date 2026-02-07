@@ -84,7 +84,7 @@ On successful settlement:
 
 - assets are exchanged,
 - bonds are refunded,
-- protocol fees are paid.
+- protocol fees are paid (treasury receives the fee minus any facilitator share).
 
 The RFQ is closed.
 

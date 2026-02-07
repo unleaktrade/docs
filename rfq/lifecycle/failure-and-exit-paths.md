@@ -108,6 +108,7 @@ Across all failure paths:
 * Bonds are slashed only when obligations are violated.
 * **All slashed bonds go 100% to the protocol treasury.**
 * Slashed bonds are never redistributed to counterparties.
+* Facilitator rewards only exist on successful settlement; failed or unselected quotes do not produce facilitator claims.
 
 {% hint style="success" %}
 This keeps incentives simple and predictable.
