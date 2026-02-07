@@ -66,6 +66,18 @@ A taker:
 
 Multiple takers can participate in the same RFQ, but only one can be selected.
 
+### Facilitator
+
+A facilitator is an optional party that helps connect makers and takers.\
+They can assist with sourcing liquidity, routing interest, or coordinating off-chain relationships around an RFQ.
+
+On-chain, facilitators can be designated:
+
+* by the maker at the RFQ level, and
+* by a taker on a specific quote.
+
+If the selected quote’s facilitator matches the RFQ’s facilitator, the facilitator can claim a share of the taker fee after settlement.
+
 ### Protocol
 
 The protocol enforces the rules of the RFQ.

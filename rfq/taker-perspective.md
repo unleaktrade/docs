@@ -21,6 +21,8 @@ You:
 * may be selected as the counterparty,
 * and complete settlement if selected.
 
+If you work with a facilitator, you can designate them on your quote so they can claim a share of the taker fee when the trade settles.
+
 Your actions are optional at every step, but once you act, **deadlines matter**.
 
 ***

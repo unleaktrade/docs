@@ -34,6 +34,7 @@ You can read it top-down, or jump directly to the section most relevant to you.
 
 * **Maker Perspective** explains obligations and risks for RFQ creators.
 * **Taker Perspective** explains timing and incentives for liquidity providers.
+* **Facilitator Perspective** explains how facilitators connect counterparties and claim rewards.
 
 ***
 

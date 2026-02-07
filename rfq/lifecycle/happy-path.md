@@ -133,7 +133,8 @@ At settlement:
 * Base assets are transferred to the taker.
 * Quote assets are transferred to the maker.
 * Maker and taker bonds are refunded.
-* Protocol fees are collected.
+* Protocol fees are collected (treasury receives the fee minus any facilitator share).
+* If the RFQ and selected quote specify the same facilitator, the facilitator share is retained for later claim.
 * Any penalties from earlier phases are finalized.
 
 {% hint style="info" %}
