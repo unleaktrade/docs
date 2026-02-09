@@ -39,7 +39,7 @@ The RFQ only moves forward once the maker decides to open it.
 
 ***
 
-## Open — Commit Phase
+## Open — Commit Window
 
 The maker opens the RFQ and makes it public.
 
@@ -49,28 +49,28 @@ At this point:
 * The commit window becomes active.
 * The RFQ is visible to all takers.
 
-During the commit phase:
+During the commit window:
 
 * Takers may commit quotes.
 * Each commitment locks a **taker bond**.
 * Quotes are not revealed yet, only commitment hashes are submitted.
 
 {% hint style="success" %}
-This phase allows takers to signal interest without exposing prices.
+This window allows takers to signal interest without exposing prices.
 {% endhint %}
 
 ***
 
-## Committed — Reveal Phase
+## Committed — Reveal Window
 
-Once at least one taker has committed, the RFQ enters the reveal phase.
+Once at least one taker has committed, the RFQ enters the reveal window.
 
 At this point:
 
-* The commit phase is over.
+* The commit window is over.
 * The reveal window becomes active.
 
-During the reveal phase:
+During the reveal window:
 
 * Committed takers may reveal their quotes.
 * Reveals must match their earlier commitments.
@@ -79,21 +79,21 @@ During the reveal phase:
 Only revealed quotes can later be selected.
 
 {% hint style="success" %}
-This phase transforms hidden interest into real, verifiable prices.
+This window transforms hidden interest into real, verifiable prices.
 {% endhint %}
 
 ***
 
-## Revealed — Selection Phase
+## Revealed — Selection Window
 
-As soon as at least one valid quote has been revealed, the RFQ enters the selection phase.
+As soon as at least one valid quote has been revealed, the RFQ enters the selection window.
 
 At this point:
 
 * All valid revealed quotes are available.
 * The selection window becomes active.
 
-During this phase:
+During this window:
 
 * The maker reviews the revealed quotes.
 * Exactly one quote can be selected.

@@ -101,9 +101,9 @@ The protocol does not arbitrate or decide outcomes — it only enforces them.
 An RFQ progresses through a series of **states**, each representing a **phase** of the workflow:
 
 * Draft
-* Open (commit phase)
-* Committed (reveal phase)
-* Revealed (selection phase)
+* Open (commit window)
+* Committed (reveal window)
+* Revealed (selection window)
 * Selected (settlement window)
 * Settled, or a failure state
 
