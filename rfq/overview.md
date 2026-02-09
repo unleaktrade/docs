@@ -154,4 +154,4 @@ The next section explains the RFQ lifecycle itself:
 * how deadlines structure the flow,
 * and how an RFQ reaches a final state.
 
-👉 Continue to [**RFQ Lifecycle**](/broken/pages/Vtoihka8aTzjwhDWvW0W).
+👉 Continue to [**RFQ Lifecycle**](lifecycle/README.md).

@@ -2,7 +2,7 @@
 description: RFQs transform opaque markets into structured, fair negotiations.
 ---
 
-# Why an OTC with RFQs?
+# Why an OTC with RFQs
 
 Traditional OTC trading, especially for large or bespoke trades, often happens off-chain through brokers, chat, or private networks.&#x20;
 

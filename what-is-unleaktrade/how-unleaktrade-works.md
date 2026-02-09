@@ -2,7 +2,7 @@
 description: A conceptual (high-level) overview of the RFQ mechanism.
 ---
 
-# How UnleakTrade Works ?
+# How UnleakTrade Works?
 
 At a high level, trading on UnleakTrade follows this flow:
 
