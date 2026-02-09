@@ -112,6 +112,14 @@ Deadlines define _when actions are allowed_, not _when they happen_.
 
 ***
 
+## Terms (Quick Definitions)
+
+* **Bond**: a refundable guarantee that is only lost when obligations are violated.
+* **Fee**: a non-refundable payment charged only on successful settlement.
+* **TTL (time-to-live)**: a defined time window for each phase; once it expires, certain actions are no longer valid.
+
+***
+
 ## Bonds and Incentives (High-Level)
 
 RFQs rely on bonds to enforce correct behavior:

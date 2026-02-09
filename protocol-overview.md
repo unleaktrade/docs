@@ -134,6 +134,7 @@ Key properties:
 * bonds are refundable guarantees, not payments,
 * slashed bonds always go **100% to the protocol**,
 * fees are charged **only on successful settlement**.
+* protocol treasury accounts (configured in the protocol config) receive fees and slashed bonds.
 
 {% hint style="info" %}
 This keeps incentives simple and predictable.
