@@ -48,7 +48,7 @@ At a high level, every RFQ follows the same structure:
 3. **Selection**\
    The maker chooses one quote.
 4. **Settlement Window**\
-   The trade can be completed within a defined time window.
+   The trade can be completed within a defined time window (maker’s base asset is locked; the taker executes within the window).
 5. **Final Outcome**\
    The RFQ ends either in settlement or in a defined exit state.
 

@@ -126,7 +126,7 @@ This phase balances commitment (maker) with execution flexibility (taker).
 
 ## Settled — Trade Completion
 
-Settlement completes when the selected taker finalizes the trade within the allowed time window.
+Settlement completes when the selected taker finalizes the trade within the allowed time window by executing the settlement transaction.
 
 At settlement:
 
