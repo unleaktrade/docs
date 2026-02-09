@@ -127,7 +127,7 @@ Key properties:
 * The facilitator earns a share only if the RFQ and the selected quote specify the same facilitator address.
 * The facilitator claims the share after successful settlement.
 
-By default, the facilitator fee is **1000 bps (10%)** of the taker fee unless configured otherwise.
+By default, the facilitator fee is **1000 bps (10%)** of the taker fee unless configured otherwise by the protocol.
 
 ### What happens on failure
 

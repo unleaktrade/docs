@@ -71,6 +71,8 @@ Multiple takers can participate in the same RFQ, but only one can be selected.
 A facilitator is an optional party that helps connect makers and takers.\
 They can assist with sourcing liquidity, routing interest, or coordinating off-chain relationships around an RFQ.
 
+Facilitators do not control RFQ state transitions or outcomes.
+
 On-chain, facilitators can be designated:
 
 * by the maker at the RFQ level, and
