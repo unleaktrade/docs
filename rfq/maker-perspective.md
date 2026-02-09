@@ -24,7 +24,7 @@ You control:
 
 At the same time, the protocol enforces **deadlines and commitments** that prevent the RFQ from stalling indefinitely.
 
-If you work with a facilitator, you may designate them on the RFQ so they can claim a share of the taker fee when the trade settles.
+If you work with a facilitator, you may designate them on the RFQ so they can claim a share of the taker fee when the trade settles. You can set or clear the facilitator while the RFQ is in **Draft**, **Open**, **Committed**, or **Revealed**.
 
 ***
 
