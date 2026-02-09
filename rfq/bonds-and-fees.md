@@ -113,6 +113,7 @@ In addition to bonds, the protocol collects fees on successful settlement.
 ### Who pays the fee
 
 * The selected taker.
+* The fee is paid by the taker even though the maker initiated the RFQ.
 
 ***
 
