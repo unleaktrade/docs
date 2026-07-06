@@ -28,13 +28,13 @@ When you press **Commit quote**, the app:
 **Keep the reveal ticket.** After committing, the app stores a local backup and offers a downloadable ticket file. The ticket (or the same wallet re-signing) is what lets you reveal later — without it, a commitment can never be revealed and the bond is forfeited when the reveal window closes.
 {% endhint %}
 
-Nobody — not the requester, not other counterparties — can see your amount until you reveal it.
+Nobody — not the maker, not the other takers — can see your amount until you reveal it.
 
 ***
 
 ## Revealing
 
-Once the commit window closes, the reveal window opens and a **Reveal** action appears on the RFQ (and in **My Activity**, under *Needs your attention*). It leads to a dedicated reveal screen that:
+Once the commit window closes, the reveal window opens and the **Reveal quote** action appears on the RFQ (and in **My Activity**, under *Needs your attention*). It leads to a dedicated reveal screen that:
 
 * re-derives your commitment locally and shows a live match against what is recorded on-chain,
 * lets you **import your ticket** or re-derive the salt with a wallet signature if this is a new device,
@@ -48,7 +48,7 @@ Revealing on time is what protects your bond: revealed-but-unselected quotes are
 
 ## Settling — If You Win
 
-If the requester selects your quote, the funding window starts and a **Settle** action appears. The settle screen shows the exact funding requirement — **your quote amount plus the protocol fee** — checks it against your balance, and submits the settlement transaction. In that single transaction the quote goes to the requester, the base tokens come to you, the fee is paid, and **both bonds are refunded**. A receipt card confirms the result, exportable as an image.
+If the maker selects your quote, the funding window starts and the **Settle now** action appears. The settle screen shows the exact funding requirement — **your quote amount plus the protocol fee** — checks it against your balance, and submits the settlement transaction. In that single transaction the quote amount goes to the maker, the base tokens come to you, the fee is paid, and **both bonds are refunded**. A receipt card confirms the result, exportable as an image.
 
 {% hint style="info" %}
 The line-by-line costs of committing and settling — accounts created, deposits, and the fee formula with a worked example — are in [**The Cost of UnleakTrade**](../rfq/cost-of-unleaktrade.md).

@@ -71,7 +71,7 @@ The SOL figures below assume Solana's current rent parameters and are rounded; t
 
 * **Creates:** your Quote account (278 bytes, ≈ 0.0028 SOL deposit) and a commit guard (49 bytes, ≈ 0.0012 SOL deposit) — a small permanent account keyed by your commit hash that makes every commitment unique and unreplayable.
 * **Token movements:** your **taker bond is locked** — the RFQ's `bond_amount` in USDC moves from your wallet into the bonds escrow.
-* **Worth knowing:** the transaction also carries a built-in ed25519 signature-verification instruction for the liquidity-guard attestation. It rides in the same transaction — no extra fee beyond the normal per-signature cost.
+* **Worth knowing:** the transaction also carries a built-in ed25519 signature-verification instruction for the liquidity-guard attestation. It rides in the same transaction, and its signature counts toward the transaction fee like any other — so committing pays for two signatures (about 0.00001 SOL) instead of one.
 
 ### Revealing and routing — `reveal_quote`, `set_quote_facilitator`
 

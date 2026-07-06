@@ -41,10 +41,10 @@ Reading it top to bottom:
 * **The state pipeline** shows where the RFQ is in its lifecycle — completed states are checked, the current one is highlighted, and the red branches underneath are the failure exits.
 * **The key figures** — base amount, target quote, bond per side, and the live countdown to the next deadline.
 * **The status banner** explains in one sentence what is happening right now and what happens next.
-* **The action bar** at the bottom shows buttons only for actions that are *legal for your wallet in this state*. If you posted the RFQ you will see different actions than someone browsing it — the app derives this automatically; there is nothing to configure.
+* **The action bar** at the bottom shows buttons only for actions that are *legal for your wallet in this state*. If you posted the RFQ you will see different actions than someone browsing it — the app derives this automatically; there is nothing to configure. The app never asks you to pick a role: what these docs call the maker, taker, or facilitator view is simply whatever is legal for your connected wallet right now.
 
 {% hint style="info" %}
-The share icon produces a deep link (with a QR code) straight to this RFQ — handy for sending a request to a counterparty you already have in mind.
+The share icon produces a deep link (with a QR code) straight to this RFQ — handy for sending it to a taker you already have in mind.
 {% endhint %}
 
 ***

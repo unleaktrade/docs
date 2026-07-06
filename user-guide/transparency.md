@@ -17,7 +17,7 @@ The **Transparency** view is the protocol's public ledger, rendered straight fro
 Two ledgers cover every token the protocol has ever collected:
 
 * **Slashed bonds** — one entry per RFQ where a commitment was not honored: a reveal that never came, or a selected trade that was never funded. Each entry is the on-chain seizure record, with its amount and timestamp.
-* **Protocol fees** — one entry per completed settlement: the fee paid on top of the quote (the requester always received the full amount).
+* **Protocol fees** — one entry per completed settlement, recording the **treasury's share** of the fee the taker paid on top of the quote (the maker always received the full quote amount). Any facilitator share is escrowed separately and surfaces when the facilitator claims it as a reward.
 
 Amounts are shown **per token** — USDC for bonds, the trade's own quote token for fees. The protocol never aggregates them into a single dollar figure, because it never uses an oracle.
 

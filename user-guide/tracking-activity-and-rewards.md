@@ -28,7 +28,7 @@ You never need to remember deadlines yourself: anything time-sensitive appears i
 
 ## Claiming Rewards
 
-If you act as a facilitator — the address named on both an RFQ and its winning quote — your earned shares appear under **Rewards history** as *pending* after each settlement. The **Claim** button withdraws them, one quick transaction per reward, and moves them to *claimed*.
+If you act as a facilitator — the address named on both an RFQ and its winning quote — your earned shares appear under **Rewards history** as *pending* after each settlement. **Claim reward** withdraws them, one quick transaction per reward, and moves them to *claimed*.
 
 Rewards are always denominated in the quote token of the trade they came from — the app never converts them into a single currency. See [**Facilitator Perspective**](../rfq/facilitator-perspective.md) for how eligibility works and [**The Cost of UnleakTrade**](../rfq/cost-of-unleaktrade.md) for the claim's cost.
 

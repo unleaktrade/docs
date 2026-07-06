@@ -8,7 +8,7 @@ description: Get set up with the UnleakTrade app in a couple of minutes.
 The UnleakTrade app lives at [**app.unleak.trade**](https://app.unleak.trade). This guide walks you through it screen by screen.
 {% endhint %}
 
-You do not need to install anything: the app runs in your browser and talks to Solana through the wallet you already use.
+You do not need to install anything: the app runs in your browser and reads the chain directly over the selected network's RPC — your wallet is only asked to approve signatures and transactions.
 
 ***
 
@@ -50,7 +50,7 @@ Once signed in you land on the dashboard. The navigation bar gives you everythin
 
 ## Pick Your Network
 
-The network switcher in the navigation bar selects the Solana cluster — **Devnet** for trying things out with test tokens, **Mainnet** for real trading. Your choice is remembered on this device.
+The network switcher in the navigation bar selects the Solana cluster: **Devnet** for trying things out with test tokens, **Mainnet Beta** for real funds (the switcher marks it with an amber warning), and **Localnet** for developers running a local validator. Your choice is remembered on this device. Switching networks also signs you out: a sign-in signature from one network is never reused on another, so the app asks you to sign in again.
 
 {% hint style="warning" %}
 Everything on Devnet is play money. It is the perfect place to walk through this guide end to end before committing real funds.
