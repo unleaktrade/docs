@@ -17,7 +17,7 @@ The top of the page summarizes the current market: how many RFQs are open for qu
 <figure><img src="../.gitbook/assets/user-guide/marketplace.png" alt="The marketplace dashboard with market statistics"><figcaption>Live market statistics, derived entirely from on-chain accounts.</figcaption></figure>
 
 {% hint style="success" %}
-Every number on this screen is read straight from the chain. There are no off-chain feeds — and no dollar conversions: amounts are always shown in their own token.
+Every statistic on this screen — the counts, settlement rate, average fill time, average bond — is computed in your browser from the on-chain RFQ accounts; there is no analytics backend. Token names and logos come from a token catalog (Jupiter's token list on Mainnet Beta, a bundled list on other networks). Amounts are never summed into a dollar figure — the protocol uses no price oracle — though on Mainnet Beta the app may show an indicative USD hint next to a single amount you type.
 {% endhint %}
 
 ***
