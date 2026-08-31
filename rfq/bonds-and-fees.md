@@ -32,6 +32,30 @@ A bond is not a fee: it is a refundable guarantee that is only lost when obligat
 
 ***
 
+## Who Sets the Bond
+
+{% hint style="info" %}
+The bond amount is chosen by the **maker**, per RFQ. The protocol does not set it.
+{% endhint %}
+
+### One value per RFQ
+
+Every RFQ carries a single `bond_amount`, denominated in USDC.
+
+* The maker chooses it when creating the draft (`init_rfq`).
+* It can still be changed while the RFQ is a `Draft` (`update_rfq`).
+* It is fixed when the RFQ is opened (`open_rfq`), at which point the maker's own bond is locked.
+
+### The same value applies to both sides
+
+Whatever the maker posts is exactly what every committing taker must post. There is no separate maker bond parameter and no separate taker bond parameter: the maker is setting the skin-in-the-game for both sides at once.
+
+### No protocol schedule
+
+The protocol enforces **no floor and no schedule indexed on trade size**. Sizing is a maker decision: high enough to keep every participant serious, low enough not to deter them.
+
+***
+
 ## Maker Bond
 
 {% hint style="info" %}
