@@ -29,9 +29,9 @@ If you want deep technical details, you can skip ahead — but most readers shou
 
 This section is intentionally short and progressive:
 
-1. **Mental Model**\
+1. [**Mental Model**](mental-model.md)\
    Explains how to _think_ about UnleakTrade: commitments, deadlines, and guarantees.
-2. **RFQ in 1 Minute**\
+2. [**RFQ in 1 Minute**](rfq-in-1-minute.md)\
    Walks through a complete RFQ flow, end to end, in plain language.
 
 After that, you can move confidently into the full RFQ lifecycle and state documentation.
@@ -52,8 +52,9 @@ This section is about clarity, not completeness.
 
 ## Where to Go Next
 
-* Start with **Mental Model** to build intuition.
-* Then read **RFQ in 1 Minute** to see the flow in action.
-* Finally, move on to **RFQ States** for the full breakdown.
+* Start with [**Mental Model**](mental-model.md) to build intuition.
+* Then read [**RFQ in 1 Minute**](rfq-in-1-minute.md) to see the flow in action.
+* Move on to [**RFQ States**](../rfq_states.md) for the full breakdown.
+* Ready to try it? The [**User Guide**](../user-guide/README.md) walks through the app screen by screen.
 
 Quick Start is the shortest path from _“What is this?”_ to _“I get it.”_
