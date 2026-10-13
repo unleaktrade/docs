@@ -19,7 +19,7 @@ This section explains the lifecycle at a **conceptual level**, before diving int
 ## A Phase-Based Process
 
 An RFQ does not evolve continuously.\
-Instead, it moves through **distinct phases**, each represented by a state.
+Instead, it moves through **distinct phases**, each represented by a state (see [RFQ States](../../rfq_states.md)).
 
 Each phase:
 
@@ -46,9 +46,9 @@ At a high level, every RFQ follows the same structure:
 2. **Price Discovery**\
    Takers express interest, then reveal concrete quotes.
 3. **Selection**\
-   The maker chooses one quote.
+   The maker chooses one revealed quote. Selecting locks the maker’s base asset in the same step.
 4. **Settlement Window**\
-   The trade can be completed within a defined time window (maker’s base asset is locked; the taker executes within the window).
+   The selected taker completes the trade within a defined time window.
 5. **Final Outcome**\
    The RFQ ends either in settlement or in a defined exit state.
 
@@ -58,7 +58,9 @@ This structure is the same regardless of whether the RFQ succeeds or fails.
 
 ## Time Windows (TTLs)
 
-Each phase is associated with a **time window**.
+Each phase after the RFQ is opened is associated with a **time window**: commit, reveal, selection and funding. Preparation has none: a draft can stay a draft.
+
+The commit, reveal and selection windows are counted from the moment the RFQ is opened. The funding window starts when the maker selects a quote.
 
 Time windows:
 
@@ -82,6 +84,14 @@ At a high level:
 * bonds are refunded when obligations are respected,
 * bonds are slashed when obligations are violated.
 
+In practice:
+
+* a taker who commits but never reveals loses their bond,
+* a selected taker who does not complete settlement loses their bond,
+* a maker who receives revealed quotes but never selects one loses their bond,
+* takers who revealed but were not selected reclaim their bond once the funding window has passed,
+* the maker’s bond is returned when the RFQ settles, expires without any revealed quote, or is left incomplete by the selected taker.
+
 {% hint style="info" %}
 All slashed bonds go **entirely to the protocol**.\
 They are never redistributed to other participants.
@@ -91,14 +101,14 @@ They are never redistributed to other participants.
 
 ## Two Ways an RFQ Can End
 
-Every RFQ reaches exactly one final outcome:
+Once opened, an RFQ ends in exactly one of two kinds of outcome (before opening, the maker can also simply cancel a draft):
 
 * **Successful settlement**\
   A quote is selected and the trade completes.
 * **Exit without settlement**\
   The RFQ closes because commitments, reveals, selection, or settlement did not occur in time.
 
-Both outcomes are intentional parts of the design.
+Both outcomes are intentional parts of the design. As with every other step, the final state is only recorded when a participant submits the closing action.
 
 ***
 

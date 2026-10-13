@@ -50,11 +50,13 @@ Once signed in you land on the dashboard. The navigation bar gives you everythin
 
 ## Pick Your Network
 
-The network switcher in the navigation bar selects the Solana cluster: **Devnet** for trying things out with test tokens, **Mainnet Beta** for real funds (the switcher marks it with an amber warning), and **Localnet** for developers running a local validator. Your choice is remembered on this device. Switching networks also signs you out: a sign-in signature from one network is never reused on another, so the app asks you to sign in again.
+The network switcher in the navigation bar selects the Solana cluster: **Devnet** for trying things out with test tokens, **Mainnet Beta** (the switcher marks it with an amber warning; the protocol is **not live on mainnet yet**, so there is nothing to trade there today), and **Localnet** for developers running a local validator. Your choice is remembered on this device. Switching networks also signs you out: a sign-in signature from one network is never reused on another, so the app asks you to sign in again.
 
 {% hint style="warning" %}
-Everything on Devnet is play money. It is the perfect place to walk through this guide end to end before committing real funds.
+Everything on Devnet is play money. It is the perfect place to walk through this guide end to end.
 {% endhint %}
+
+To post an RFQ or submit a quote on Devnet you need **Unleak USDC (uUSDC)** for the bond: a test token with no real-world value, sent to the wallet you registered on the [waitlist](https://unleak.trade/waitlist) once your registration is activated. Connect that same wallet in the app.
 
 ***
 
