@@ -143,6 +143,12 @@ If you complete settlement on time:
 * no penalties apply.
 {% endhint %}
 
+{% hint style="info" %}
+The maker cannot block your settlement by closing their token accounts. If the maker's USDC or quote-token account was closed, settlement re-creates it, and you pay the small account rent (about 0.002 SOL per account).
+
+Assets whose mint has a **freeze authority** remain a known risk: the authority can freeze accounts and prevent settlement. Check the RFQ's base and quote assets before committing.
+{% endhint %}
+
 ***
 
 ## Failing to Settle
