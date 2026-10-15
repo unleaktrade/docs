@@ -137,6 +137,10 @@ If settlement completes in time:
 * the trade is executed,
 * your bond is refunded.
 
+{% hint style="info" %}
+Your bond refund and the quote proceeds are paid to your **associated token accounts** (USDC and the quote token), and the RFQ must be opened from your USDC associated token account. Closing these accounts after selection does not stop settlement: they are re-created when the taker settles.
+{% endhint %}
+
 If settlement does **not** complete:
 
 * your escrowed base asset is returned,

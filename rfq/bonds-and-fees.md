@@ -77,6 +77,8 @@ The **maker bond** is posted when the RFQ is opened.
 * When the RFQ expires without valid reveals.
 * When settlement fails due to taker inaction.
 
+* Refunds go to the maker's USDC **associated token account**. If the maker closed it after selection, settlement re-creates it, so closing it cannot be used to block the taker.
+
 ### When it is slashed
 
 * When valid quotes are revealed but the maker fails to select one before the deadline.
